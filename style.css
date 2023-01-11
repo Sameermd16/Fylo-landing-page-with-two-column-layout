@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* primary */
+    --Very-Dark-Blue: hsl(243, 87%, 12%);
+    --Desaturated-Blue: hsl(238, 22%, 44%);
+    /* accent */
+    --Bright-Blue: hsl(224, 93%, 58%);
+    --Moderate-Cyan: hsl(170, 45%, 43%);
+    /* neutral */
+    --Light-Grayish-Blue: hsl(240, 75%, 98%);
+    --Light-Gray: hsl(0, 0%, 75%);
+}
+.container{
+    max-width: 1000px;
+}
+ul{
+    list-style-type: none;
+}
+.nav{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.logo{
+    flex-grow: 1;
+    border: 1px solid black;
+}
+.grid{
+    padding: 2rem;
+    border: 1px solid blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-columns: 
+    "files illu-1"
+}
+.illu-1 img{
+    width: 100%;
+}
+.inner-box{
+    border: 1px solid green;
+}
+.review{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.review img{
+    width: 50px;
+    border-radius: 50%;
+}
+.review-div{
+    width: 50%;
+    border: 1px solid black;
+}
+.btn-2{
+    display: block;
+}
+.before-footer{
+    color: white;
+    background-color: var(--Desaturated-Blue);
+}
+.footer{
+    color: white;
+    background-color: var(--Very-Dark-Blue);
+}
+.phone, .email{
+    display: flex;
+    gap: 1rem;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem;
+}
+h2, h3 {
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 1rem;
+}
+.btn-1{
+    background: var(--Bright-Blue);
+    color: white;
+    padding: 0.5rem 1rem;
+    width: 30%;
+    border-radius: 5px;
+}
+.input-1{
+    width: 50%;
+    height: 25px;
+}
+.files{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+.grid-2{
+    background: url(images/bg-curve-desktop.svg);
+    margin-top: 5rem;
+}
+p{
+    line-height: 1.5rem;
+    font-family: "Open-Sans", sans-serif;
+}
+
+
+
+
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
