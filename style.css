@@ -227,6 +227,10 @@ p{
     .logo-img{
         width: 100px;
     }
+    .bottom-logo{
+        color: white;
+        filter: invert(100%);
+    }
     .nav{
         gap: 1rem;
     }
